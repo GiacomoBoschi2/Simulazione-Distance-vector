@@ -1,0 +1,55 @@
+Tabella di router n.1
+DESTINAZIONE:router n.2    NEXT_HOP:router n.2    DISTANZA:5
+DESTINAZIONE:router n.3    NEXT_HOP:router n.3    DISTANZA:3
+DESTINAZIONE:router n.4    NEXT_HOP:router n.4    DISTANZA:4
+DESTINAZIONE:router n.7    NEXT_HOP:router n.3    DISTANZA:5
+DESTINAZIONE:router n.5    NEXT_HOP:router n.3    DISTANZA:5
+DESTINAZIONE:router n.6    NEXT_HOP:router n.3    DISTANZA:6
+
+Tabella di router n.2
+DESTINAZIONE:router n.1    NEXT_HOP:router n.1    DISTANZA:5
+DESTINAZIONE:router n.3    NEXT_HOP:router n.3    DISTANZA:2
+DESTINAZIONE:router n.4    NEXT_HOP:router n.1    DISTANZA:9
+DESTINAZIONE:router n.7    NEXT_HOP:router n.3    DISTANZA:4
+DESTINAZIONE:router n.5    NEXT_HOP:router n.3    DISTANZA:4
+DESTINAZIONE:router n.6    NEXT_HOP:router n.3    DISTANZA:5
+
+Tabella di router n.3
+DESTINAZIONE:router n.1    NEXT_HOP:router n.1    DISTANZA:3
+DESTINAZIONE:router n.2    NEXT_HOP:router n.2    DISTANZA:2
+DESTINAZIONE:router n.7    NEXT_HOP:router n.7    DISTANZA:2
+DESTINAZIONE:router n.5    NEXT_HOP:router n.5    DISTANZA:2
+DESTINAZIONE:router n.4    NEXT_HOP:router n.1    DISTANZA:7
+DESTINAZIONE:router n.6    NEXT_HOP:router n.5    DISTANZA:3
+
+Tabella di router n.4
+DESTINAZIONE:router n.1    NEXT_HOP:router n.1    DISTANZA:4
+DESTINAZIONE:router n.6    NEXT_HOP:router n.6    DISTANZA:7
+DESTINAZIONE:router n.2    NEXT_HOP:router n.1    DISTANZA:9
+DESTINAZIONE:router n.3    NEXT_HOP:router n.1    DISTANZA:7
+DESTINAZIONE:router n.7    NEXT_HOP:router n.1    DISTANZA:9
+DESTINAZIONE:router n.5    NEXT_HOP:router n.6    DISTANZA:8
+
+Tabella di router n.5
+DESTINAZIONE:router n.3    NEXT_HOP:router n.3    DISTANZA:2
+DESTINAZIONE:router n.6    NEXT_HOP:router n.6    DISTANZA:1
+DESTINAZIONE:router n.1    NEXT_HOP:router n.3    DISTANZA:5
+DESTINAZIONE:router n.2    NEXT_HOP:router n.3    DISTANZA:4
+DESTINAZIONE:router n.7    NEXT_HOP:router n.3    DISTANZA:4
+DESTINAZIONE:router n.4    NEXT_HOP:router n.6    DISTANZA:8
+
+Tabella di router n.6
+DESTINAZIONE:router n.4    NEXT_HOP:router n.4    DISTANZA:7
+DESTINAZIONE:router n.5    NEXT_HOP:router n.5    DISTANZA:1
+DESTINAZIONE:router n.1    NEXT_HOP:router n.5    DISTANZA:6
+DESTINAZIONE:router n.2    NEXT_HOP:router n.5    DISTANZA:5
+DESTINAZIONE:router n.3    NEXT_HOP:router n.5    DISTANZA:3
+DESTINAZIONE:router n.7    NEXT_HOP:router n.5    DISTANZA:5
+
+Tabella di router n.7
+DESTINAZIONE:router n.3    NEXT_HOP:router n.3    DISTANZA:2
+DESTINAZIONE:router n.1    NEXT_HOP:router n.3    DISTANZA:5
+DESTINAZIONE:router n.2    NEXT_HOP:router n.3    DISTANZA:4
+DESTINAZIONE:router n.5    NEXT_HOP:router n.3    DISTANZA:4
+DESTINAZIONE:router n.4    NEXT_HOP:router n.3    DISTANZA:9
+DESTINAZIONE:router n.6    NEXT_HOP:router n.3    DISTANZA:5
